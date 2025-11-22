@@ -1,0 +1,18 @@
+# Ignorer MUSDB18
+Data/train/
+Data/test/
+Data/wav_mixes/
+Data/separated/
+
+# Ignorer gros fichiers audio/vidéo
+*.mp4
+*.wav
+*.stem.mp4
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Divers
+*.tmp
+*.log
