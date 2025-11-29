@@ -48,7 +48,10 @@ def run_demucs_on_folder(
     if not files:
         print(f"[INFO] Aucun fichier trouvé dans {input_dir} avec le pattern {pattern}")
         return
-
+    
+    # On enlève les fichiers qui sont déjà des vocals (la vérité terrain)
+    files = [f for f in files if "_vocals" not in f.name]
+    
     print(f"[INFO] {len(files)} fichier(s) trouvé(s) dans {input_dir} (pattern = {pattern})")
 
     for f in files:

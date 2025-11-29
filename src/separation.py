@@ -11,7 +11,7 @@ from pathlib import Path
 # -------------------------------------------------
 
 wav_path = Path(
-    r"H:\Documents\2025-2026\ing2\S11\Tratement du signal\Separation_voix_instru\Data\wav_mixes\Al James - Schoolboy Facination.stem.wav"
+    r"H:\Documents\Trait_Signal\TP\Separation_Voix_Instru\Separation_Voix_Intru\Data\wav_mixes\Al James - Schoolboy Facination.stem.wav"
 )
 
 # Dossier de sortie : Data/wav_mixes/outputs
